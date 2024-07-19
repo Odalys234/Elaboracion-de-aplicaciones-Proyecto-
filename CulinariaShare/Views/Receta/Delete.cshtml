@@ -1,0 +1,88 @@
+﻿@model CulinariaShare.Models.Receta
+
+@{
+    ViewData["Title"] = "Eliminar receta";
+}
+
+<h1 class="text-center text-danger">Eliminar receta</h1>
+
+<h3 class="text-center">¿Estás seguro de que quieres eliminar esta receta?</h3>
+<div class="card shadow-sm mt-4">
+    <div class="card-body">
+        <h4 class="card-title">Receta</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Id)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Titulo)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Titulo)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Descripcion)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Ingredientes)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Ingredientes)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Instrucciones)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Instrucciones)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.TiempoPreparacion)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.TiempoPreparacion)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.NumeroPorciones)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.NumeroPorciones)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Categoria.Nombre)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Categoria.Nombre)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Foto)
+            </dt>
+            <dd class="col-sm-9">
+                @if (!string.IsNullOrEmpty(Model.Foto))
+                {
+                    <img src="@Model.Foto" alt="Imagen de la receta" class="img-fluid" style="max-height: 200px;" />
+                }
+                else
+                {
+                    <span>No image available</span>
+                }
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Usuario.Username)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Usuario.Username)
+            </dd>
+        </dl>
+        <form asp-action="Delete" method="post" class="text-center">
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            <a asp-action="Index" class="btn btn-outline-secondary">Regresar</a>
+        </form>
+    </div>
+</div>

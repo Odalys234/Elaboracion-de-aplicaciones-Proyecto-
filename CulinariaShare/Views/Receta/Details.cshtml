@@ -1,0 +1,87 @@
+﻿@model CulinariaShare.Models.Receta
+
+@{
+    ViewData["Title"] = "Detalles de la receta";
+}
+
+<h1 class="text-center">Detalles de la receta</h1>
+
+<div class="card shadow-sm mt-4">
+    <div class="card-body">
+        <h4 class="card-title">Receta</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Id)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Titulo)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Titulo)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Descripcion)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Ingredientes)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Ingredientes)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Instrucciones)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Instrucciones)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.TiempoPreparacion)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.TiempoPreparacion) minutos
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.NumeroPorciones)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.NumeroPorciones)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Categoria.Nombre)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Categoria.Nombre)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Foto)
+            </dt>
+            <dd class="col-sm-8">
+                @if (!string.IsNullOrEmpty(Model.Foto))
+                {
+                    <img src="@Model.Foto" alt="@Model.Titulo" class="img-fluid" style="max-height: 200px;" />
+                }
+                else
+                {
+                    <span>No image available</span>
+                }
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Usuario.Username)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Usuario.Username)
+            </dd>
+        </dl>
+        <div class="text-center mt-3">
+            @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-outline-info" }) |
+            <a asp-action="Index" class="btn btn-outline-secondary">Regresar</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My Application</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/startboostrap/css/bootstrap.min.css" rel="stylesheet" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="nav navbar-nav">
+                @if (User.IsInRole("Administrador"))
+                {
+                    <a class="nav-item nav-link active" href="Home">Administrador del sitio web</a>
+                    <a class="nav-item nav-link" href="Usuario">Lista de usuarios </a>
+                    <a class="nav-item nav-link" href="Categoria">Categorias</a>
+                    <a class="nav-item nav-link" href="Receta">Recetas</a>
+                    <a class="nav-item nav-link" asp-action="Logout" asp-controller="Usuario">Cerrar Sesion</a>
+                }
+                @if (User.IsInRole("Usuario"))
+                {
+                    <a class="nav-item nav-link" href="Receta">Recetas</a>
+                    <a class="nav-item nav-link" asp-action="Logout" asp-controller="Usuario">Cerrar Sesion</a>
+                }
+            </div>
+        </nav>
+        <main>
+            @RenderBody() <!-- Aquí se renderizará el contenido de la vista -->
+        </main>
+    }
+    else
+    {
+        <main>
+            <div class="container-fluid px-4">
+                @RenderBody()
+            </div>
+        </main>
+    }
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    @RenderSection("Scripts", required: false) <!-- Renderiza la sección Scripts -->
+</body>
+</html>

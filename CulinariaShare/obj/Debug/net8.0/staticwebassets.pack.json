@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CulinariaShare.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CulinariaShare.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\FontAwesome.js",
+      "PackagePath": "staticwebassets\\StartBoostrap\\FontAwesome.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\StartBoostrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\css\\login.css",
+      "PackagePath": "staticwebassets\\StartBoostrap\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\css\\perfil-guia.css",
+      "PackagePath": "staticwebassets\\StartBoostrap\\css\\perfil-guia.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\css\\styles.css",
+      "PackagePath": "staticwebassets\\StartBoostrap\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\StartBoostrap\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\js\\script.js",
+      "PackagePath": "staticwebassets\\StartBoostrap\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\StartBoostrap\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\StartBoostrap\\script.js",
+      "PackagePath": "staticwebassets\\StartBoostrap\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\1a2bcf54-d667-41a9-8f09-b41231f0b8be.jfif",
+      "PackagePath": "staticwebassets\\images\\1a2bcf54-d667-41a9-8f09-b41231f0b8be.jfif"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\Desayuno-Típico-Chapín.jpg",
+      "PackagePath": "staticwebassets\\images\\Desayuno-Típico-Chapín.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\Receta-espagueti-rojo-a-la-mexicana-hero-1-500x500.jpg",
+      "PackagePath": "staticwebassets\\images\\Receta-espagueti-rojo-a-la-mexicana-hero-1-500x500.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\WhatsApp_Image_2024-07-17_at_5.42.20_PM-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\WhatsApp_Image_2024-07-17_at_5.42.20_PM-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\WhatsApp_Image_2024-07-17_at_5.42.31_PM-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\WhatsApp_Image_2024-07-17_at_5.42.31_PM-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\el-sopon-tipico-escalon.jpg",
+      "PackagePath": "staticwebassets\\images\\el-sopon-tipico-escalon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\iconmaleta.png",
+      "PackagePath": "staticwebassets\\images\\iconmaleta.png"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\images.jfif",
+      "PackagePath": "staticwebassets\\images\\images.jfif"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\images\\receta-de-postre-de-maracuya-Paulina-Cocina-Recetas-1200x675.jpg",
+      "PackagePath": "staticwebassets\\images\\receta-de-postre-de-maracuya-Paulina-Cocina-Recetas-1200x675.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\source\\repos\\CulinariaShare\\CulinariaShare\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CulinariaShare.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CulinariaShare.props",
+      "PackagePath": "build\\CulinariaShare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CulinariaShare.props",
+      "PackagePath": "buildMultiTargeting\\CulinariaShare.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CulinariaShare.props",
+      "PackagePath": "buildTransitive\\CulinariaShare.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

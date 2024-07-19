@@ -1,0 +1,115 @@
+﻿@model CulinariaShare.Models.Receta
+
+@{
+    ViewData["Title"] = "Editar receta";
+    var categorias = ViewBag.Categorias as List<CulinariaShare.Models.Categoria>;
+    var usuarios = ViewBag.Usuarios as List<CulinariaShare.Models.Usuario>;
+}
+
+<h1 class="text-center">Editar receta</h1>
+
+<h4 class="text-center">Receta</h4>
+<hr />
+<div class="d-flex justify-content-center">
+    <div class="col-md-8">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Foto" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Titulo" class="control-label"></label>
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <textarea asp-for="Descripcion" class="form-control"></textarea>
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Ingredientes" class="control-label"></label>
+                <textarea asp-for="Ingredientes" class="form-control"></textarea>
+                <span asp-validation-for="Ingredientes" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Instrucciones" class="control-label"></label>
+                <textarea asp-for="Instrucciones" class="form-control"></textarea>
+                <span asp-validation-for="Instrucciones" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="TiempoPreparacion" class="control-label"></label>
+                <input asp-for="TiempoPreparacion" class="form-control" />
+                <span asp-validation-for="TiempoPreparacion" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="NumeroPorciones" class="control-label"></label>
+                <input asp-for="NumeroPorciones" class="form-control" />
+                <span asp-validation-for="NumeroPorciones" class="text-danger"></span>
+            </div>
+           <div class="form-group mb-3">
+                <label asp-for="CategoriaId" class="control-label"></label>
+                <select asp-for="CategoriaId" class="form-control">
+                    <option value="-1">Seleccione una categoría</option>
+                    @foreach (var item in categorias)
+                    {
+                        if (item.Id == Model.CategoriaId)
+                        {
+                            <option value="@item.Id" selected>@item.Nombre</option>
+                        }
+                        else
+                        {
+                            <option value="@item.Id">@item.Nombre</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="CategoriaId" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="UserId" class="control-label"></label>
+                <select asp-for="UserId" class="form-control">
+                    <option value="-1">Seleccione un usuario</option>
+                    @foreach (var item in usuarios)
+                    {
+                        if (item.Id == Model.UserId)
+                        {
+                            <option value="@item.Id" selected>@item.Username</option>
+                        }
+                        else
+                        {
+                            <option value="@item.Id">@item.Username</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Foto" class="control-label"></label>
+                @if (!string.IsNullOrEmpty(Model.Foto))
+                {
+                    <div class="mb-2">
+                        <img src="@Model.Foto" alt="Imagen de la receta" class="img-fluid" style="max-height: 200px;" />
+                    </div>
+                }
+                <input type="file" name="foto" class="form-control" />
+                <span class="text-danger" id="fotoValidationError"></span>
+            </div>
+            <div class="form-group text-center">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <input type="submit" value="Guardar" class="btn btn-primary" />
+                    </div>
+                    <div class="col-auto">
+                        <a asp-action="Index" class="btn btn-outline-secondary">Regresar</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
